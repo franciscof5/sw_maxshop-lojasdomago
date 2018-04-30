@@ -20,7 +20,10 @@ License:            GNU General Public License v2 or later
 .entry-thumb {
 	min-height: 170px !important;
 }
-
+/*BUG ON IMAGE SIZE ON FRONT-END (era oq ue falta porra)*/
+.size-shop_catalog,.hover-image {
+	width: 100%;
+}
 /*.single_add_to_cart_button {
 	width: 320px;
 	height: 150px;
